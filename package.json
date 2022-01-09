@@ -12,7 +12,7 @@
     "js"
   ],
   "author": "山人自有妙计",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "jest": "^27.4.7"
   }
