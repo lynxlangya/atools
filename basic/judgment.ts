@@ -9,7 +9,7 @@
  * String, Number, Boolean, Symbol, Null, Undefined, Object
  * Array, RegExp, Date, Error, Function, AsyncFunction, HTMLDocument
  */
-export const getTypeOf = (obj: any): string => Object.prototype.toString.call(obj).match(/\[object (.*)\]/)[1];
+export const getTypeOf = (obj: unknown): string => Object.prototype.toString.call(obj).match(/\[object (.*)\]/)[1];
 
 /** 
  * 是否为字符串
