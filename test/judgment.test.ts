@@ -1,5 +1,5 @@
 /** 类型判断 */
-import { getTypeOf } from '../basic/judgment';
+import { getTypeOf } from '../basic/getTypeOf';
 
 test('getTypeOf', () => {
   expect(getTypeOf('')).toBe('String');
