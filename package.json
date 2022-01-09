@@ -1,0 +1,16 @@
+{
+  "name": "atools",
+  "version": "1.0.0",
+  "description": "JavaScript 实用工具库🔧",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tools",
+    "javascript",
+    "js"
+  ],
+  "author": "山人自有妙计",
+  "license": "ISC"
+}
