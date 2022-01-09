@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "现代 JavaScript 实用工具库🔧",
   "main": "index.js",
-  "scripts": {
-
-  },
+  "scripts": {},
   "keywords": [
     "tools",
     "javascript",
@@ -14,6 +12,7 @@
   "author": "山人自有妙计",
   "license": "MIT",
   "devDependencies": {
+    "@types/jest": "^27.4.0",
     "jest": "^27.4.7"
   }
 }
