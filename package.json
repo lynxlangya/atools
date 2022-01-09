@@ -1,7 +1,7 @@
 {
   "name": "atools",
   "version": "1.0.0",
-  "description": "JavaScript 实用工具库🔧",
+  "description": "现代 JavaScript 实用工具库🔧",
   "main": "index.js",
   "scripts": {
 
