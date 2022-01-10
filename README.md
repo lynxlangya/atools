@@ -24,20 +24,20 @@ pnpm add atools-js
 ```js
 import { getTypeOf } from 'atools-js'
 
-getTypeOf('')								// String
-getTypeOf(0) 								// Number
-getTypeOf(true)   					// Boolean
-getTypeOf(Symbol()) 				// Symbol
-getTypeOf(null) 						// Null
-getTypeOf(undefined) 				// Undefined
-getTypeOf({}) 							// Object
-getTypeOf([])  							// Array
-getTypeOf(/\w+/) 						// RegExp
-getTypeOf(new Date()) 			// Date
-getTypeOf(new Error())			// Error
-getTypeOf(() => {}) 				// Function
-getTypeOf(async () => {}) 	// AsyncFunction
-getTypeOf(document) 				// HTMLDocument
+getTypeOf('') // String
+getTypeOf(0)  // Number
+getTypeOf(true) // Boolean
+getTypeOf(Symbol()) // Symbol
+getTypeOf(null) // Null
+getTypeOf(undefined)  // Undefined
+getTypeOf({}) // Object
+getTypeOf([]) // Array
+getTypeOf(/\w+/)  // RegExp
+getTypeOf(new Date()) // Date
+getTypeOf(new Error())  // Error
+getTypeOf(() => {}) // Function
+getTypeOf(async () => {}) // AsyncFunction
+getTypeOf(document) // HTMLDocument
 ```
 
 -----
