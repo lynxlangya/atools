@@ -11,9 +11,15 @@
     "build": "rollup -c"
   },
   "keywords": [
-    "tools",
     "javascript",
-    "js"
+    "typescript",
+    "atools-js",
+    "atools",
+    "tools",
+    "js",
+    "ts",
+    "es6",
+    "esnext"
   ],
   "author": "山人自有妙计",
   "license": "MIT",
