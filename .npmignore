@@ -20,6 +20,7 @@ index.ts
 .npmignore
 .babelrc
 tsconfig.json
+test.js
 
 
 # local env files
