@@ -19,6 +19,7 @@ WORKFLOW.md
 index.ts
 .npmignore
 .babelrc
+tsconfig.json
 
 
 # local env files
