@@ -13,13 +13,13 @@ export default {
   input: 'index.ts',
   output: [
     {
-      file: `${dir}/index.umd.js`,
+      file: `${dir}/index.js`,
       format: 'umd',
       name: name,
       sourcemap: true,
     },
     {
-      file: `${dir}/index.umd.min.js`,
+      file: `${dir}/index.min.js`,
       format: 'umd',
       name: name,
       sourcemap: true,

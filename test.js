@@ -1,3 +1,3 @@
-import { isString } from 'atools.js'
+import { isString } from './lib/index.umd.js'
 
 console.log(isString('abc')); // true
