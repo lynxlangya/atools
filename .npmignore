@@ -21,6 +21,7 @@ index.ts
 .babelrc
 tsconfig.json
 test.js
+demo
 
 
 # local env files
