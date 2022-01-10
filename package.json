@@ -1,6 +1,6 @@
 {
   "name": "atools.js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "现代 JavaScript 实用工具库🔧",
   "main": "lib/index.cjs.js",
   "module": "lib/index.esm.js",
