@@ -1,57 +1,58 @@
+import path from 'path';
 import commonjs from '@rollup/plugin-commonjs';
+import babel from 'rollup-plugin-babel';
+import dts from 'rollup-plugin-dts';
 import { nodeResolve } from '@rollup/plugin-node-resolve';
 import typescript from '@rollup/plugin-typescript';
 import peerDepsExternal from 'rollup-plugin-peer-deps-external';
 import { terser } from 'rollup-plugin-terser';
-// import pkg from './package.json'
-const pkg = require('./package.json');
+import pkg from './package.json';
 const name = pkg.name.replace(/^@\w+\//, '');
 
+const extensions = ['.ts'];
 const dir = 'lib';
+const resolve = (...args) => path.resolve(...args);
 
-export default {
-  input: 'index.ts',
-  output: [
-    {
-      file: `${dir}/index.js`,
-      format: 'umd',
-      name: name,
-      sourcemap: true,
+const config = [
+  {
+    input: resolve('./index.ts'),
+    output: [
+      {
+        file: resolve(`./${dir}/index.js`),
+        format: 'umd',
+        name: 'atools',
+        sourcemap: true,
+      },
+      {
+        file: resolve(`./${dir}/index.min.js`),
+        format: 'umd',
+        name: 'atools',
+        sourcemap: true,
+        plugins: [terser()],
+      },
+    ],
+    plugins: [
+      peerDepsExternal(),
+      nodeResolve({
+        extensions,
+      }),
+      commonjs({ include: 'node_modules/**' }),
+      typescript({ tsconfig: './tsconfig.json', declaration: false }),
+      babel({
+        extensions,
+        exclude: 'node_modules/**'
+      }),
+    ],
+  },
+  {
+    // 生成 .d.ts 类型声明文件
+    input: resolve('./index.ts'),
+    output: {
+      file: resolve('./', pkg.types),
+      format: 'es',
     },
-    {
-      file: `${dir}/index.min.js`,
-      format: 'umd',
-      name: name,
-      sourcemap: true,
-      plugins: [terser()],
-    },
-    {
-      file: `${dir}/index.esm.js`,
-      format: 'esm',
-      sourcemap: true,
-    },
-    {
-      file: `${dir}/index.esm.min.js`,
-      format: 'esm',
-      sourcemap: true,
-      plugins: [terser()],
-    },
-    {
-      file: `${dir}/index.cjs.js`,
-      format: 'cjs',
-      sourcemap: true,
-    },
-    {
-      file: `${dir}/index.cjs.min.js`,
-      format: 'cjs',
-      sourcemap: true,
-      plugins: [terser()],
-    },
-  ],
-  plugins: [
-    peerDepsExternal(),
-    nodeResolve(),
-    commonjs({ include: 'node_modules/**' }),
-    typescript({ tsconfig: './tsconfig.json', declaration: false }),
-  ],
-};
+    plugins: [dts()],
+  },
+];
+
+export default config;
