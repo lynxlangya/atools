@@ -1,11 +1,11 @@
 {
-  "name": "atools",
-  "version": "1.0.0",
+  "name": "atools.js",
+  "version": "1.0.1",
   "description": "现代 JavaScript 实用工具库🔧",
-  "main": "dist/index.cjs.js",
-  "module": "dist/index.esm.js",
-  "types": "dist/index.d.ts",
-  "unpkg": "dist/index.umd.min.js",
+  "main": "lib/index.cjs.js",
+  "module": "lib/index.esm.js",
+  "types": "lib/index.d.ts",
+  "unpkg": "lib/index.umd.min.js",
   "scripts": {
     "test": "jest",
     "dev": "rollup -c -w",
@@ -31,6 +31,7 @@
     "rollup": "^2.63.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-terser": "^7.0.2",
+    "ts-jest": "^27.1.2",
     "ts-node": "^10.4.0",
     "tslib": "^2.3.1",
     "typescript": "^4.5.4"

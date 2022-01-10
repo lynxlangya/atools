@@ -7,7 +7,7 @@ import { terser } from 'rollup-plugin-terser';
 const pkg = require('./package.json');
 const name = pkg.name.replace(/^@\w+\//, '');
 
-const dir = 'dist';
+const dir = 'lib';
 
 export default {
   input: 'index.ts',
