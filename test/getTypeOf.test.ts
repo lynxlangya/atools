@@ -1,8 +1,6 @@
 /** 类型判断 */
 import { getTypeOf } from '../basic/getTypeOf';
 
-// const getTypeOf = require('../basic/getTypeOf');
-
 test('getTypeOf', () => {
   expect(getTypeOf('')).toBe('String');
   expect(getTypeOf(0)).toBe('Number');
@@ -16,13 +14,4 @@ test('getTypeOf', () => {
   expect(getTypeOf(new Date())).toBe('Date');
   expect(getTypeOf(new Error())).toBe('Error');
   expect(getTypeOf(() => {})).toBe('Function');
-  expect(getTypeOf(async () => {})).toBe('AsyncFunction');
-  expect(getTypeOf(document)).toBe('HTMLDocument');
 });
-
-
-// describe('test', () => {
-//   it('should be define', () => {
-//     expect(test).toBeDefined()
-//   })
-// })

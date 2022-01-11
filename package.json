@@ -4,7 +4,6 @@
   "description": "现代 JavaScript 实用工具库🔧",
   "main": "lib/index.min.js",
   "types": "lib/index.d.ts",
-  "type": "module",
   "scripts": {
     "test": "jest",
     "dev": "rollup -c -w",

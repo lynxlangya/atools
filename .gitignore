@@ -4,5 +4,5 @@ pnpm-lock.yaml
 WORKFLOW.md
 coverage/
 lib/
-demo
+demo/
 .vscode
