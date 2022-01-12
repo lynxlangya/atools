@@ -68,4 +68,4 @@ $ pnpm install
 
 ## Contact
 
-<img src="http://cdn.wangdaoo.com/Snipaste_2022-01-12_21-28-59.png" alt="Contact" style="zoom:50%;" />
+![Contact](http://cdn.wangdaoo.com/qrcode.jpeg?imageView2/1/w/400/h/400)
