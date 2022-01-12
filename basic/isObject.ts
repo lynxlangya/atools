@@ -1,6 +1,6 @@
-import { getTypeOf } from './getTypeOf'
-/** 
+import { getTypeOf } from './getTypeOf';
+/**
  * 是否为对象
  * @returns {boolean}
  */
- export const isObject = (obj: any): boolean => getTypeOf(obj) === 'Object';
+export const isObject = (v: any): boolean => getTypeOf(v) === 'Object';
