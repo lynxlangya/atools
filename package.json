@@ -22,6 +22,14 @@
   ],
   "author": "山人自有妙计",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wangdaoo/atools"
+  },
+  "bugs": {
+    "url": "https://github.com/wangdaoo/atools/issues"
+  },
+  "homepage": "https://wangdaoo.github.io/atools-docs/",
   "devDependencies": {
     "@babel/core": "^7.16.7",
     "@babel/preset-env": "^7.16.7",
