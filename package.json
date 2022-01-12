@@ -1,6 +1,6 @@
 {
   "name": "atools-js",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "现代 JavaScript 实用工具库🔧",
   "main": "lib/index.min.js",
   "types": "lib/index.d.ts",
