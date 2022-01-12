@@ -68,4 +68,4 @@ $ pnpm install
 
 ## Contact
 
-![Contact](http://cdn.wangdaoo.com/20220112214644.png?imageView2/1/w/400/h/400)
+![Contact](http://cdn.wangdaoo.com/qrcode2.jpeg?imageView2/1/w/400/h/400)
