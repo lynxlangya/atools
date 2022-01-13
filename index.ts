@@ -21,3 +21,10 @@ export {
 export {
   wait
 } from './fn/root';
+
+// browser
+export {
+  clearCookie,
+  getCookie,
+  isBrowser
+} from './browser/root';
