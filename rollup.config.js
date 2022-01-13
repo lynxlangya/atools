@@ -30,6 +30,19 @@ const config = [
         sourcemap: true,
         plugins: [terser()],
       },
+      {
+        file: resolve(`./${dir}/index.mjs`),
+        format: 'esm',
+        name: 'atools',
+        sourcemap: true
+      },
+      {
+        file: resolve(`./${dir}/index.min.mjs`),
+        format: 'esm',
+        name: 'atools',
+        sourcemap: true,
+        plugins: [terser()],
+      }
     ],
     plugins: [
       peerDepsExternal(),

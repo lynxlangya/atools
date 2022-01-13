@@ -3,11 +3,12 @@
   "version": "0.0.10",
   "description": "现代 JavaScript 实用工具库🔧",
   "main": "lib/index.min.js",
+  "module": "lib/index.min.mjs",
   "types": "lib/index.d.ts",
   "scripts": {
     "test": "jest",
     "dev": "rollup -c -w",
-    "build": "rollup -c"
+    "build": "rm -rf lib && rollup -c"
   },
   "keywords": [
     "javascript",
