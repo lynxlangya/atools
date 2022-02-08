@@ -3,6 +3,7 @@
     "atools",
     "atoolsjs",
     "mkdir",
+    "Parens",
     "pnpm"
   ]
 }
