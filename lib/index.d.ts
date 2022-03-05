@@ -36,4 +36,6 @@ declare const getCookie: (name?: string) => Array<string> | string | undefined;
 
 declare const clearCookie: () => void;
 
-export { clearCookie, getCookie, getTypeOf, isArray, isAsyncFunction, isBoolean, isBrowser, isDate, isError, isFunction, isHTMLDocument, isNull, isNumber, isObject, isRegExp, isString, isSymbol, isUndefined, wait };
+declare const removeHTMLTag: (str: string) => string;
+
+export { clearCookie, getCookie, getTypeOf, isArray, isAsyncFunction, isBoolean, isBrowser, isDate, isError, isFunction, isHTMLDocument, isNull, isNumber, isObject, isRegExp, isString, isSymbol, isUndefined, removeHTMLTag, wait };
