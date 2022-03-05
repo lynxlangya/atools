@@ -32,6 +32,8 @@ declare const wait: (milliseconds: number) => Promise<unknown>;
 
 declare const copyToClipboard: (text: string) => Promise<void>;
 
+declare const throttle: (fn: Function, ms?: number) => Function;
+
 declare const isBrowser: boolean;
 
 declare const getCookie: (name?: string) => Array<string> | string | undefined;
@@ -40,4 +42,6 @@ declare const clearCookie: () => void;
 
 declare const removeHTMLTag: (str: string) => string;
 
-export { clearCookie, copyToClipboard, getCookie, getTypeOf, isArray, isAsyncFunction, isBoolean, isBrowser, isDate, isError, isFunction, isHTMLDocument, isNull, isNumber, isObject, isRegExp, isString, isSymbol, isUndefined, removeHTMLTag, wait };
+declare const average: (numbers: number[]) => number;
+
+export { average, clearCookie, copyToClipboard, getCookie, getTypeOf, isArray, isAsyncFunction, isBoolean, isBrowser, isDate, isError, isFunction, isHTMLDocument, isNull, isNumber, isObject, isRegExp, isString, isSymbol, isUndefined, removeHTMLTag, throttle, wait };
