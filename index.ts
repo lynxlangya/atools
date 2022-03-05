@@ -9,3 +9,6 @@ export * from './browser/root';
 
 // HTML
 export * from './html/root';
+
+// calc
+export * from './calc/root';

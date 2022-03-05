@@ -1,0 +1,1 @@
+export { average } from './average';
