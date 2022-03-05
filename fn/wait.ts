@@ -1,4 +1,4 @@
-/** 
+/**
  * wait
  * @param {number} milliseconds
  */
