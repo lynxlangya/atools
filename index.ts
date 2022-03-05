@@ -28,3 +28,8 @@ export {
   getCookie,
   isBrowser
 } from './browser/root';
+
+// HTML
+export {
+  removeHTMLTag
+} from './html/root';

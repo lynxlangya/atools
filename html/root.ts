@@ -1,0 +1,1 @@
+export { removeHTMLTag } from './removeHTMLTag';
