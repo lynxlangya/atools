@@ -5,3 +5,4 @@ WORKFLOW.md
 coverage/
 demo/
 .vscode
+.DS_Store
