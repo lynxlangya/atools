@@ -14,5 +14,5 @@ export const throttle = (fn: Function, ms: number = 1000): Function => {
       fn(...args);
       isRunning = false;
     }, ms);
-  };
-};
+  }
+}
