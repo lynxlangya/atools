@@ -5,5 +5,6 @@
  * Array, RegExp, Date, Error, Function, AsyncFunction, HTMLDocument
  */
 export const getTypeOf = (param: unknown): string => {
-  return Object.prototype.toString.call(param).match(/\[object (.*)\]/)[1];
+  const type = Object.prototype.toString.call(param).slice(8, -1);
+  return type.toLowerCase();
 };

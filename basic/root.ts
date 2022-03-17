@@ -1,15 +1,2 @@
 export { getTypeOf } from './getTypeOf';
-export { isArray } from './isArray';
-export { isAsyncFunction } from './isAsyncFunction';
-export { isBoolean } from './isBoolean';
-export { isDate } from './isDate';
-export { isError } from './isError';
-export { isFunction } from './isFunction';
-export { isHTMLDocument } from './isHTMLDocument';
-export { isNull } from './isNull';
-export { isNumber } from './isNumber';
-export { isObject } from './isObject';
-export { isRegExp } from './isRegExp';
-export { isString } from './isString';
-export { isSymbol } from './isSymbol';
-export { isUndefined } from './isUndefined';
+export { is } from './is';
