@@ -1,4 +1,4 @@
-import { is } from '../../basic/is';
+import { is } from '../../_basic/is';
 
 test('is', () => {
   expect(is(1, 'NUMBER')).toBe(true);

@@ -1,4 +1,4 @@
-import { removeHTMLTag } from '../../html/removeHTMLTag';
+import { removeHTMLTag } from '../../_basic/removeHTMLTag';
 
 test('removeHTMLTag', () => {
   expect(removeHTMLTag('<h1>Hello</h1>')).toBe('Hello');

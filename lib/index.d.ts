@@ -10,13 +10,13 @@ declare const getFromClipboard: () => Promise<string>;
 
 declare const throttle: (fn: Function, ms?: number) => Function;
 
+declare const removeHTMLTag: (str: string) => string;
+
 declare const isBrowser: boolean;
 
 declare const getCookie: (name?: string) => Array<string> | string | undefined;
 
 declare const clearCookie: () => void;
-
-declare const removeHTMLTag: (str: string) => string;
 
 declare const average: (numbers: number[]) => number;
 

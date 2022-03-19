@@ -1,4 +1,4 @@
-import { throttle } from '../../fn/throttle';
+import { throttle } from '../../_basic/throttle';
 
 test('throttle', () => {
   let count = 0;

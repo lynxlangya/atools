@@ -1,14 +1,11 @@
-// basic
-export * from './basic/root';
+// basic function
+export * from './_basic/root';
 
-// function
-export * from './fn/root';
+// senior function
+// export * from './senior/root';
 
 // browser
-export * from './browser/root';
-
-// HTML
-export * from './html/root';
+export * from './_browser/root';
 
 // calc
-export * from './calc/root';
+export * from './_calc/root';
