@@ -6,6 +6,8 @@ declare const wait: (milliseconds: number) => Promise<unknown>;
 
 declare const copyToClipboard: (text: string) => Promise<void>;
 
+declare const getFromClipboard: () => Promise<string>;
+
 declare const throttle: (fn: Function, ms?: number) => Function;
 
 declare const isBrowser: boolean;
@@ -18,4 +20,4 @@ declare const removeHTMLTag: (str: string) => string;
 
 declare const average: (numbers: number[]) => number;
 
-export { average, clearCookie, copyToClipboard, getCookie, getTypeOf, is, isBrowser, removeHTMLTag, throttle, wait };
+export { average, clearCookie, copyToClipboard, getCookie, getFromClipboard, getTypeOf, is, isBrowser, removeHTMLTag, throttle, wait };
