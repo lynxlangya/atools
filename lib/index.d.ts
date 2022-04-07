@@ -20,4 +20,16 @@ declare const clearCookie: () => void;
 
 declare const average: (numbers: number[]) => number;
 
-export { average, clearCookie, copyToClipboard, getCookie, getFromClipboard, getTypeOf, is, isBrowser, removeHTMLTag, throttle, wait };
+declare const isMobile: (str: string) => boolean;
+
+declare const isRegexWith: (regex: RegExp, str: string) => boolean;
+
+declare const isEmail: (str: string) => boolean;
+
+declare const isUrl: (str: string) => boolean;
+
+declare const isChinese: (str: string) => boolean;
+
+declare const isIdCard: (str: string, type?: number) => boolean;
+
+export { average, clearCookie, copyToClipboard, getCookie, getFromClipboard, getTypeOf, is, isBrowser, isChinese, isEmail, isIdCard, isMobile, isRegexWith, isUrl, removeHTMLTag, throttle, wait };
