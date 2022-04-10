@@ -43,5 +43,5 @@ pnpm/npm/yarn install
 请访问 [GitHub](https://github.com/wangdaoo/atools) 或添加微信进群：
 
 <div>
-  <img data-type="atools" src="http://cdn.wangdaoo.com/wechat.png?imageView2/1/w/400/h/400" />
+  <img data-type="atools" src="http://cdn.wangdaoo.com/wechat.png?imageView2/1/w/400/h/400/interlace/1" />
 </div>
