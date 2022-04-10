@@ -1,7 +1,7 @@
 # aTools-js
 
 <div style="text-align: center;">
-  <img src="http://cdn.wangdaoo.com/atools_banner.png?imageView2/2/w/550" />
+  <img src="http://cdn.wangdaoo.com/atools_banner.png?imageView2/2/w/550/interlace/1" />
 </div>
 
 ## 轻松上手
