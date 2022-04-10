@@ -1,10 +1,10 @@
 # aTools-js
 
-> 现代 JavaScript 实用工具库🔧
+<div style="text-align: center;">
+  <img data-type="atools" src="./static/atools_logo.png" width="550" />
+</div>
 
-介绍...
-
-## 📦 install
+## 轻松上手
 
 ```bash
 # npm
@@ -13,59 +13,35 @@ npm install atools-js
 # yarn
 yarn add atools-js
 
-# pnpm
+# pnpm 🔥
 pnpm add atools-js
 ```
 
------
+> 如果你不想在项目中引入太多依赖，而又想使用某一个或几个方法
+>
+> 那么可以复制文档中的源码，在你的项目中引入
 
-## 🔨 Usage
-
-```js
-import { getTypeOf } from 'atools-js'
-
-getTypeOf('') // String
-getTypeOf(0)  // Number
-getTypeOf(true) // Boolean
-getTypeOf(Symbol()) // Symbol
-getTypeOf(null) // Null
-getTypeOf(undefined)  // Undefined
-getTypeOf({}) // Object
-getTypeOf([]) // Array
-getTypeOf(/\w+/)  // RegExp
-getTypeOf(new Date()) // Date
-getTypeOf(new Error())  // Error
-getTypeOf(() => {}) // Function
-getTypeOf(async () => {}) // AsyncFunction
-getTypeOf(document) // HTMLDocument
-```
-
------
-
-## 🔗 Links
-
-[atools: 现代 JavaScript 实用工具库🔧](https://github.com/wangdaoo/atools)
-
------
-
-## ⌨️ Development
-
-Or clone locally:
+## 源码获取
 
 ```bash
-$ git clone git@github.com:wangdaoo/atools.git
+# clone
+git clone git@github.com:wangdaoo/atools.git
 
-$ cd atools
+# enter
+cd atools
 
-$ pnpm install
+# install
+pnpm/npm/yarn install
 ```
 
------
-
-## 🤝 Contributing
+## bug
 
 [Issues · atools](https://github.com/wangdaoo/atools/issues)
 
-## Contact
+## 反馈与共建
 
-![Contact](http://cdn.wangdaoo.com/wechat.png?imageView2/1/w/400/h/400)
+请访问 [GitHub](https://github.com/wangdaoo/atools) 或添加微信进群：
+
+<div>
+  <img data-type="atools" src="./static/wechat.png" width="400" />
+</div>
