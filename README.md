@@ -1,7 +1,7 @@
 # aTools-js
 
 <div style="text-align: center;">
-  <img src="http://cdn.wangdaoo.com/atools_banner.png" width="550" />
+  <img src="http://cdn.wangdaoo.com/atools_banner.png?imageView2/2/w/550" />
 </div>
 
 ## 轻松上手
@@ -43,5 +43,5 @@ pnpm/npm/yarn install
 请访问 [GitHub](https://github.com/wangdaoo/atools) 或添加微信进群：
 
 <div>
-  <img data-type="atools" src="http://cdn.wangdaoo.com/wechat.png?imageView2/1/w/400/h/400" width="400" />
+  <img data-type="atools" src="http://cdn.wangdaoo.com/wechat.png?imageView2/1/w/400/h/400" />
 </div>
