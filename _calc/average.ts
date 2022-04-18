@@ -1,6 +1,6 @@
 /**
  * @func average
- * @desc 📝 Calculate the average of a list of numbers
+ * @desc 📝 计算数组的平均值
  * @param {number[]} numbers
  * @returns {number}
  * @example average([1, 2, 3, 4, 5]) // 3
