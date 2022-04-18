@@ -4,6 +4,10 @@
   <img src="http://cdn.wangdaoo.com/atools_banner.png?imageView2/2/w/550/interlace/1" />
 </div>
 
+![](https://img.shields.io/github/license/wangdaoo/atools)
+![](https://img.shields.io/github/stars/wangdaoo/atools)
+![](https://img.shields.io/badge/LICENSE-MIT-yellowgreen)
+
 ## 轻松上手
 
 ```bash
