@@ -1,11 +1,8 @@
-# aTools-js
+# aTools-js ![](https://img.shields.io/github/license/wangdaoo/atools)
 
 <div style="text-align: center;">
   <img src="http://cdn.wangdaoo.com/atools_banner.png?imageView2/2/w/550/interlace/1" />
 </div>
-
-![](https://img.shields.io/github/license/wangdaoo/atools)
-![](https://img.shields.io/github/stars/wangdaoo/atools)
 
 ## 轻松上手
 
