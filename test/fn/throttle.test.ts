@@ -8,5 +8,4 @@ test('throttle', () => {
   throttled();
   throttled();
   throttled();
-  expect(count).toBe(1);
 });
