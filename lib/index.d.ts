@@ -32,4 +32,10 @@ declare const isChinese: (str: string) => boolean;
 
 declare const isIdCard: (str: string, type?: number) => boolean;
 
-export { average, clearCookie, copyToClipboard, getCookie, getFromClipboard, getTypeOf, is, isBrowser, isChinese, isEmail, isIdCard, isMobile, isRegexWith, isUrl, removeHTMLTag, throttle, wait };
+declare function diffDays(date1: Date, date2: Date): number;
+
+declare function formatSeconds(seconds: number, format?: string): string;
+
+declare const randomIP: (type?: number) => string;
+
+export { average, clearCookie, copyToClipboard, diffDays, formatSeconds, getCookie, getFromClipboard, getTypeOf, is, isBrowser, isChinese, isEmail, isIdCard, isMobile, isRegexWith, isUrl, randomIP, removeHTMLTag, throttle, wait };
