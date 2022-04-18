@@ -6,7 +6,6 @@
 
 ![](https://img.shields.io/github/license/wangdaoo/atools)
 ![](https://img.shields.io/github/stars/wangdaoo/atools)
-![](https://img.shields.io/badge/LICENSE-MIT-yellowgreen)
 
 ## 轻松上手
 
