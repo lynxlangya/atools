@@ -2,6 +2,7 @@ import { randomInt } from './randomInt';
 /**
  * @func randomColor
  * @param {type} type - 0: rgb, 1: rgba, 2: hsl, 3: hsla, 4: hex
+ * @returns {string} - random color
  * @desc 📝生成一个随机的颜色值
  */
 
