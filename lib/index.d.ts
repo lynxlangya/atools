@@ -20,6 +20,10 @@ declare const clearCookie: () => void;
 
 declare const average: (numbers: number[]) => number;
 
+declare const sum: (numbers: number[]) => number;
+
+declare const diffCount: (a: number, b: number) => number;
+
 declare const isMobile: (str: string) => boolean;
 
 declare const isRegexWith: (regex: RegExp, str: string) => boolean;
@@ -42,4 +46,4 @@ declare const randomIP: (type?: number) => string;
 
 declare const randomColor: (type?: number) => string;
 
-export { average, clearCookie, copyToClipboard, diffDays, formatSeconds, getCookie, getFromClipboard, getTypeOf, is, isBrowser, isChinese, isEmail, isIdCard, isMobile, isRegexWith, isUrl, randomColor, randomIP, randomInt, removeHTMLTag, throttle, wait };
+export { average, clearCookie, copyToClipboard, diffCount, diffDays, formatSeconds, getCookie, getFromClipboard, getTypeOf, is, isBrowser, isChinese, isEmail, isIdCard, isMobile, isRegexWith, isUrl, randomColor, randomIP, randomInt, removeHTMLTag, sum, throttle, wait };
