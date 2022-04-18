@@ -1,8 +1,14 @@
-# aTools-js ![](https://img.shields.io/github/license/wangdaoo/atools)
+# aTools-js
 
 <div style="text-align: center;">
   <img src="http://cdn.wangdaoo.com/atools_banner.png?imageView2/2/w/550/interlace/1" />
 </div>
+
+![npm](https://img.shields.io/badge/npm-v0.0.28-brightgreen)
+![license](https://img.shields.io/github/license/wangdaoo/atools)
+![open source](https://img.shields.io/badge/Open%20Source%3F-Sure-brightgreen)
+![TypeScript](https://img.shields.io/badge/TypeScript-Yeah-yellow)
+![Rollup](https://img.shields.io/badge/Rollup-Yeah-red)
 
 ## 轻松上手
 
