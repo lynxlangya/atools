@@ -34,7 +34,7 @@
   "bugs": {
     "url": "https://github.com/wangdaoo/atools/issues"
   },
-  "homepage": "https://wangdaoo.github.io/atools-docs/",
+  "homepage": "https://atools.vercel.app",
   "devDependencies": {
     "@babel/core": "^7.16.7",
     "@babel/preset-env": "^7.16.7",
