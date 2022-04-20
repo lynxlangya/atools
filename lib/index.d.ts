@@ -18,6 +18,10 @@ declare const getCookie: (name?: string) => Array<string> | string | undefined;
 
 declare const clearCookie: () => void;
 
+declare const getBaseUrl: (url: string) => string;
+
+declare const getUrlParams: (url: string) => object;
+
 declare const average: (numbers: number[]) => number;
 
 declare const sum: (numbers: number[]) => number;
@@ -46,4 +50,4 @@ declare const randomIP: (type?: number) => string;
 
 declare const randomColor: (type?: number) => string;
 
-export { average, clearCookie, copyToClipboard, diffCount, diffDays, formatSeconds, getCookie, getFromClipboard, getTypeOf, is, isBrowser, isChinese, isEmail, isIdCard, isMobile, isRegexWith, isUrl, randomColor, randomIP, randomInt, removeHTMLTag, sum, throttle, wait };
+export { average, clearCookie, copyToClipboard, diffCount, diffDays, formatSeconds, getBaseUrl, getCookie, getFromClipboard, getTypeOf, getUrlParams, is, isBrowser, isChinese, isEmail, isIdCard, isMobile, isRegexWith, isUrl, randomColor, randomIP, randomInt, removeHTMLTag, sum, throttle, wait };
