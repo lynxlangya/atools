@@ -8,7 +8,7 @@
 <br />
 <br />
 <div align="center">
-  <img src="https://img.shields.io/badge/npm-v0.0.28-brightgreen" />
+  <img src="https://img.shields.io/badge/npm-v0.0.29-brightgreen" />
   <img src="https://img.shields.io/github/license/wangdaoo/atools" />
   <img src="https://img.shields.io/badge/Open%20Source%3F-Sure-brightgreen" />
   <img src="https://img.shields.io/badge/TypeScript-Yeah-yellow" />
