@@ -1,5 +1,5 @@
 /**
- * @since v0.0.31
+ * @version v0.0.31
  * @func goToTop
  * @return {void}
  * @desc 📝 平滑滚动到顶部
