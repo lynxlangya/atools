@@ -1,4 +1,5 @@
 /**
+ * @version v0.0.31
  * @func coorDistance
  * @param {object} coor1 - 坐标1
  * @param {object} coor2 - 坐标2
