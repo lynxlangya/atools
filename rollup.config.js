@@ -7,7 +7,6 @@ import typescript from '@rollup/plugin-typescript';
 import peerDepsExternal from 'rollup-plugin-peer-deps-external';
 import { terser } from 'rollup-plugin-terser';
 import pkg from './package.json';
-const name = pkg.name.replace(/^@\w+\//, '');
 
 const extensions = ['.ts'];
 const dir = 'lib';
