@@ -6,6 +6,15 @@ packages/
 basic/
 test/
 coverage/
+_time/
+_senior/
+_regex/
+_random/
+_calc/
+_browser/
+_basic/
+static/
+.github/
 
 # 忽略指定文件
 .gitignore
